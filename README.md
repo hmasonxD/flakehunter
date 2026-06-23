@@ -1,5 +1,6 @@
 # Flakehunter — Playwright + TypeScript Test Automation Suite
 
+[![Playwright Tests](https://github.com/hmasonxD/flakehunter/actions/workflows/ci.yml/badge.svg)](https://github.com/hmasonxD/flakehunter/actions/workflows/ci.yml)
 An end-to-end automated test suite for a live e-commerce application
 ([automationexercise.com](https://automationexercise.com)), built with Playwright
 and TypeScript. It demonstrates the full range of automated testing an SDET owns:
