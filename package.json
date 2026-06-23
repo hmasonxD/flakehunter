@@ -1,10 +1,12 @@
 {
   "name": "flakehunter",
   "version": "1.0.0",
-  "description": "",
+  "description": "End-to-end test automation suite — Playwright, TypeScript, Page Object Model, CI/CD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "playwright test",
+    "test:api": "playwright test tests/api",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +14,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.61.0",
+    "@types/node": "^26.0.0",
     "typescript": "^6.0.3"
   }
 }
